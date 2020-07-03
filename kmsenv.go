@@ -65,7 +65,6 @@ func (ke *KmsEnv) encryption(str string) ([]byte, error) {
 		return nil, err
 	}
 
-	println(ke.resource())
 	request := &kmspb.EncryptRequest{
 		Name:      ke.resource(),
 		Plaintext: []byte(str),
