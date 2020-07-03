@@ -43,6 +43,10 @@ func (ke *KmsEnv) Encrypt() (map[string]string, error) {
 
 	res := make(map[string]string)
 	for k, v := range envMap {
+		if v == "" {
+			continue
+		}
+
 		ciphertext, err := ke.encryption(v)
 		if err != nil {
 			return nil, err
