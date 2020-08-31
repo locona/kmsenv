@@ -7,5 +7,5 @@ require (
 	github.com/joho/godotenv v1.3.0
 	go.opencensus.io v0.22.4 // indirect
 	golang.org/x/text v0.3.3 // indirect
-	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987
+	google.golang.org/genproto v0.0.0-20200831141814-d751682dd103
 )
