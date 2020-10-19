@@ -6,5 +6,5 @@ require (
 	cloud.google.com/go v0.69.1
 	github.com/joho/godotenv v1.3.0
 	golang.org/x/text v0.3.3 // indirect
-	google.golang.org/genproto v0.0.0-20201015140912-32ed001d685c
+	google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154
 )
